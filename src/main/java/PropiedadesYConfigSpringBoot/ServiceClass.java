@@ -5,7 +5,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 
 @Service
-@PropertySource("classpath:application.properties")
+@PropertySource("classpath:properties.yml")
 public class ServiceClass {
   @Value("${VAR1}")
   private String var1;
